@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content%}
+<h1>Your Account has been locked </h1>
+<p> Plz contact your admin </p>
+<form action="{% url 'simple:homepage' %}" method="post">
+    {% csrf_token %}
+    <button type="submit" value="userlocked">GO TO LOGIN PAGE</button>
+</form>
+{% endblock content%}
