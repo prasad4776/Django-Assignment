@@ -1,5 +1,5 @@
 asgiref==3.2.5
-Django==3.0.4
+Django==3.0.7
 django-appconf==1.0.3
 django-ipware==2.1.0
 pytz==2019.3
